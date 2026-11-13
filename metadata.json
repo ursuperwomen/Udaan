@@ -1,0 +1,8 @@
+{
+  "name": "ClearSkies Visa",
+  "description": "A calm, plain-language visa assistant with personalized checklists, AI document scanning and form pre-fill, application status tracking, and interview coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

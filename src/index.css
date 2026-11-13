@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f1f5f9;
+  --color-ink: #1e293b;
+  --color-ink-muted: #475569;
+
+  --color-passport-blue: #1e3a8a;
+  --color-passport-blue-hover: #172554;
+  --color-embassy-mint: #10b981;
+  --color-departure-amber: #f59e0b;
+  --color-trust-indigo: #4f46e5;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #f8fafc;
+    color: #1e293b;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.clearskies-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 0 4px 16px -2px rgba(30, 58, 138, 0.04);
+}
+
+.clearskies-card-elevated {
+  background-color: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 8px 24px -4px rgba(30, 58, 138, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.clearskies-ai-rail {
+  background-color: #ffffff;
+  border: 1px solid rgba(224, 231, 255, 0.95);
+  box-shadow: 0 0 0 1px rgba(79, 70, 229, 0.08), 0 12px 32px -4px rgba(79, 70, 229, 0.1);
+}
